@@ -1,3 +1,3 @@
-# `@turbo/eslint-config`
+# `@repo/eslint-config`
 
-Collection of internal eslint configurations.
+ESLint lagacy 설정 모음

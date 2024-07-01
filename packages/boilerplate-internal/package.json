@@ -1,0 +1,17 @@
+{
+  "name": "@repo/boilerplate-internal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config-flat": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "eslint": "9.x",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}
