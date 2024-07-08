@@ -7,12 +7,17 @@
       }
     ]
   },
+  "paths": {
+    "@/*": ["./src/*"]
+  },
   "include": [
     "next-env.d.ts",
-    "next.config.js",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    // for linting only
+    "next.config.mjs",
+    "postcss.config.mjs"
   ],
   "exclude": ["node_modules"]
 }

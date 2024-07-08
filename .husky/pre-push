@@ -1,0 +1,2 @@
+echo "===== PrePush: Testing Building... ====="
+pnpm build
