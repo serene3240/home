@@ -1,0 +1,5 @@
+echo "===== PreCommit: Linting... ====="
+pnpm lint
+
+echo "===== PreCommit: Checking Formatting... ====="
+pnpm format:check

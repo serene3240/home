@@ -7,9 +7,6 @@
     "node.js",
     "react.js"
   ],
-  "scripts": {
-    "lint": "eslint test.js"
-  },
   "devDependencies": {
     "@eslint/compat": "^1.1.0",
     "@eslint/js": "^9.6.0",
