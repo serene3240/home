@@ -1,7 +1,14 @@
 {
+  // lint 설정
   "eslint.workingDirectories": [
     {
       "mode": "auto"
     }
-  ]
+  ],
+  // format 설정
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

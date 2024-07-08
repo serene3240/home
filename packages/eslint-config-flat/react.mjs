@@ -5,9 +5,11 @@ import pluginReactConfig from 'eslint-plugin-react/configs/recommended.js';
 import { fixupConfigRules } from '@eslint/compat';
 
 /** @type {import("eslint").Linter.FlatConfig} */
-export default [{
+export default [
+  {
     files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
-  }, {
+  },
+  {
     languageOptions: {
       parserOptions: {
         ecmaFeatures: {
@@ -15,7 +17,8 @@ export default [{
         },
       },
     },
-  }, {
+  },
+  {
     languageOptions: {
       globals: {
         ...globals.browser,

@@ -3,9 +3,11 @@ import pluginJs from '@eslint/js';
 import tsEslint from 'typescript-eslint';
 
 /** @type {import("eslint").Linter.FlatConfig} */
-export default [{
+export default [
+  {
     files: ['**/*.{js,mjs,cjs,ts}'],
-  }, {
+  },
+  {
     languageOptions: {
       globals: {
         ...globals.browser,
